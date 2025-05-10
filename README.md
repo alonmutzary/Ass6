@@ -1,6 +1,7 @@
 # Ass6
 Sixth assignment:
-
+https://github.com/alonmutzary/Ass6.git  
+  
 3. output: 14976  
    since we have 2 threads and each one calls baz 10000 times we would expect the program to print 20000 at the end but it printed 14976 (and changes from run to run)  
     it happens because bar++ is not thread safe, therefore some increments are lost when threads interfere with each other.
